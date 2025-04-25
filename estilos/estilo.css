@@ -1,0 +1,206 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: "futura", sans-serif; 
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+h1 {
+    color: yellowgreen;
+    text-align: center; 
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(88, 43, 28);
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 25px 0;
+    padding: 8px;
+}
+
+h3 {
+    color: rgb(88, 43, 28);
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 6px;
+}
+
+p {
+    color: #666666; 
+    font-size: 16px;
+    font-weight: normal; 
+    text-align: center; 
+    margin: 15px 0;
+    padding: 5px;
+}
+
+.home-img {
+    display: block;
+    margin: 20px auto;
+}
+
+.tabela-home {
+    display: block;
+    align-self: center;
+    width: 100%;
+    margin: 30px auto;
+    display: table;
+    border-collapse: collapse;
+}
+
+.tabela-home th {
+    background-color: #d0c3c3;
+    border: 1px solid #ccc;
+}
+
+.tabela-home td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    font-family: "futura", sans-serif;
+    font-size: 16px;
+}
+.menu {
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;  
+    color:rgb(88, 43, 28);      
+    font-weight: bold;      
+    padding: 10px 20px; 
+}
+
+.menu li a:hover {
+    color: yellowgreen;
+}
+
+.galeria {
+    display: block;
+    align-self: center;
+    width: 100%;
+    margin: 30px auto;
+    display: table;
+    border-collapse: collapse;
+}
+
+.galeria th {
+    background-color: #d0c3c3;
+    border: 1px solid #ccc;
+}
+
+.galeria td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    font-family: "futura", sans-serif;
+    font-size: 16px;
+}
+
+.gerador-instrucao {
+    text-align: center;
+}
+
+form.gerador {
+    background-color: #fff;
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  form.gerador input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 30px;
+  }
+
+  form.gerador button {
+    background-color: yellowgreen;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  form.gerador button:hover {
+    background-color:rgb(88, 43, 28);
+  }
+
+  .voltar {
+    display: block;
+    margin-top: 20px;
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .voltar:hover {
+    color: rgb(88, 43, 28);
+  }
+
+  .img-gerada {
+    display: block;
+    align-self: center;
+    margin: 20px auto;
+  }
+
+  form.contato-form {
+    background-color: #fff;
+    padding: 30px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 30px auto;
+    text-align: left;
+  }
+
+  form.contato-form input[type="text"],
+form.contato-form input[type="email"],
+form.contato-form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form.contato-form button {
+    background-color: yellowgreen;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+form.contato-form button:hover {
+    background-color:rgb(88, 43, 28);
+}
